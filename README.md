@@ -1,4 +1,4 @@
-# ~/codedbysanu — dev dashboard
+# ~/codedbysanu - dev dashboard
 
 > A live, interactive developer portfolio. Built entirely on a phone.
 
