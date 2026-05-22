@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>codedbysanu — Dev Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="space-canvas"></canvas>
+
+  <!-- Scanline overlay for CRT texture -->
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <div class="content-wrapper">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <div class="title-block">
+          <span class="title-prefix">~/</span>
+          <h1 class="site-title">codedbysanu</h1>
+        </div>
+        <div class="status-row">
+          <span class="status-dot"></span>
+          <span class="status-text">online</span>
+          <span class="divider">·</span>
+          <span id="clock" class="clock">--:--:--</span>
+          <span class="divider">·</span>
+         </div>
+     
+      <div class="header-right">
+        <div class="tag-stack">
+          <span class="tag">aiml → it</span>
+          <span class="tag">diploma · sem 3</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- TERMINAL BLOCK -->
+    <section class="terminal-section" aria-label="About">
+      <div class="terminal-bar">
+        <span class="t-dot t-red"></span>
+        <span class="t-dot t-yellow"></span>
+        <span class="t-dot t-green"></span>
+        <span class="t-title">bash — sanu@beed</span>
+      </div>
+      <div class="terminal-body">
+        <div id="terminal-output"></div>
+        <span class="cursor" id="cursor">█</span>
+      </div>
+    </section>
+
+    <!-- REPOS -->
+    <section class="repos-section">
+      <div class="section-header">
+        <h2 class="section-label">active repositories</h2>
+        <span class="repo-count" id="repo-count"></span>
+      </div>
+      <div id="repo-grid" class="repo-grid">
+        <div class="loading-state">
+          <span class="loading-text">pinging github api</span>
+          <span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>
+        </div>
+      </div>
+      <div id="error-box" class="error-box hidden"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span class="footer-text">
+        built on a phone · termux + nano ·
+        <a href="https://github.com/codedbysanu" target="_blank" rel="noopener">github/codedbysanu</a>
+      </span>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
