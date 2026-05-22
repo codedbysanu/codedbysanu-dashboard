@@ -1,11 +1,7 @@
 # ~/codedbysanu - dev dashboard
 
 > A live, interactive developer portfolio. Built entirely on a phone.
-
-**[→ Live Demo](https://codedbysanu.github.io/codedbysanu-dashboard)**
-
----
-
+> 
 ## what it is
 
 A single-page web app that fetches my real GitHub repos via the public API and renders them inside a custom deep-space UI. no frameworks, no build tools, no laptop.
@@ -14,8 +10,6 @@ Every line written in **Termux + nano** on Android. Pushed from a phone.
 ---
 
 ## features
-
-**Interactive Starfield** - HTML5 Canvas engine. 55 nodes drift, draw proximity connection lines, and scatter away from your finger using repulsion physics.
 
 **Terminal Typewriter** - async/await JS sequences fake bash output character-by-character with randomized timing jitter so it reads human, not robotic.
 
@@ -31,15 +25,6 @@ Every line written in **Termux + nano** on Android. Pushed from a phone.
 
 HTML · CSS · Vanilla JavaScript
 no frameworks · no npm · no build step
-
----
-
-## run locally
-
-git clone https://github.com/codedbysanu/codedbysanu-dashboard.git
-cd codedbysanu-dashboard
-python -m http.server 8000
-No installs. No dependencies. Open `localhost:8000`.
 
 ---
 
