@@ -31,4 +31,4 @@ about
 Saniya · @codedbysanu
 Diploma student · AIML → targeting IT/CE lateral entry
 Cybersecurity · web dev · Beed, Maharashtra
-built at 3am on a phone. because why not.# codedbysanu-dashboard
+built at 3am on a phone. because why not.
