@@ -1,5 +1,5 @@
 /* ============================================================
-   codedbysanu — Dev Dashboard · script.js
+  codedbysanu — Dev Dashboard · script.js
    ============================================================ */
 
 'use strict';
@@ -162,11 +162,8 @@ const SEQUENCE = [
   { type: 'gap' },
   { type: 'prompt', text: '$ cat status.txt' },
   { type: 'out',    text: 'aiml diploma → targeting IT/CE lateral entry', cls: 't-amber' },
-  { type: 'out',    text: 'cybersecurity & web dev · beed, maharashtra', cls: '' },
-  { type: 'gap' },
-  { type: 'prompt', text: '$ cat interests.txt' },
-  { type: 'out',    text: 'pen testing · ethical hacking · creative writing', cls: '' },
-  { type: 'gap' },
+  { type: 'out',    text: 'cybersecurity & tech ', cls: '' },
+  { type: 'gap' } 
 ];
 
 // Speeds in ms
